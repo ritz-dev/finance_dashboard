@@ -129,7 +129,7 @@
             processing: true,
             serverSide: true,
             ajax: {
-                url: "{{ url('finance/balance_sheet_ajax') }}",
+                url: "{{ url('balance_sheet_ajax') }}",
                 data: {
                     month: month,
                     year: year,
