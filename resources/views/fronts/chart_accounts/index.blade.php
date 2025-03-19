@@ -46,7 +46,7 @@
       var table = $('.data-table').DataTable({
           processing: true,
           serverSide: true,
-          ajax: "{{ url('finance/account-list') }}",
+          ajax: "{{ url('account-list') }}",
           columns: [
               {data: 'id', name: 'id'},
               {data: 'name', name: 'name'},
