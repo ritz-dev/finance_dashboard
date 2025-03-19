@@ -20,10 +20,10 @@
             <div class="card-header d-flex justify-content-between">
                 <h5>Create Chart Account</h5>
 
-                <a href="{{url('finance/account-list')}}"><button type="button" class="btn btn-md btn-outline-danger">Back</button></a>
+                <a href="{{url('account-list')}}"><button type="button" class="btn btn-md btn-outline-danger">Back</button></a>
             </div>
             <div class="card-body">
-                <form action="{{url('finance/chart_store')}}" method="POST">
+                <form action="{{url('chart_store')}}" method="POST">
                     @csrf
 
                     <div class="row">

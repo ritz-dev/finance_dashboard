@@ -20,10 +20,10 @@
             <div class="card-header d-flex justify-content-between">
                 <h5>Create Journal</h5>
 
-                <a href="{{url('finance/journals')}}"><button type="button" class="btn btn-md btn-outline-danger">Back</button></a>
+                <a href="{{url('journals')}}"><button type="button" class="btn btn-md btn-outline-danger">Back</button></a>
             </div>
             <div class="card-body">
-                <form action="{{url('finance/journal_store')}}" method="POST">
+                <form action="{{url('journal_store')}}" method="POST">
                     @csrf
                     <div class="row">
                         <div class="col-sm-6">

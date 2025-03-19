@@ -12,7 +12,7 @@
 
 
           <h3 class="fw-bold"><i class="fa-solid fa-right-left"></i> Transaction</h3>
-          <a href="{{url('finance/transactions/create')}}"><button type="button" class="btn btn-md btn-outline-success"> <i class="fa-solid fa-plus fa-2xl"></i> Create</button></a>
+          <a href="{{url('transactions/create')}}"><button type="button" class="btn btn-md btn-outline-success"> <i class="fa-solid fa-plus fa-2xl"></i> Create</button></a>
 
       </div>
       <div class="row">
@@ -51,7 +51,7 @@
       var table = $('.data-table').DataTable({
           processing: true,
           serverSide: true,
-          ajax: "{{url('finance/transactions')}}",
+          ajax: "{{url('transactions')}}",
           columnDefs: [
                 { targets: 5, width: '300px' },
             ],

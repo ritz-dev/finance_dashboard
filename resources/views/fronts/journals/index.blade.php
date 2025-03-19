@@ -8,7 +8,7 @@
     <div class="page-inner">
       <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row justify-content-between">
           <h3 class="fw-bold"> <i class="fa-solid fa-shuffle"></i> Journal</h3>
-          <a href="{{url('finance/journals/create')}}"><button type="button" class="btn btn-md btn-outline-success"> <i class="fa-solid fa-plus fa-2xl"></i> Create</button></a>
+          <a href="{{url('journals/create')}}"><button type="button" class="btn btn-md btn-outline-success"> <i class="fa-solid fa-plus fa-2xl"></i> Create</button></a>
 
       </div>
       <div class="row">
@@ -46,7 +46,7 @@
       var table = $('.data-table').DataTable({
           processing: true,
           serverSide: true,
-          ajax: "{{ url('finance/journals') }}",
+          ajax: "{{ url('journals') }}",
           columnDefs: [
             { targets: 5, width: '300px' },
         ],

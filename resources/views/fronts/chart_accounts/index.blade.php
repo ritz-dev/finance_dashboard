@@ -10,7 +10,7 @@
 
 
           <h3 class="fw-bold"><i class="fa-solid fa-chart-column"></i> Chart Account</h3>
-          <a href="{{url('finance/chart_accounts/create')}}"><button type="button" class="btn btn-md btn-outline-success"> <i class="fa-solid fa-plus fa-2xl"></i> Create</button></a>
+          <a href="{{url('chart_accounts/create')}}"><button type="button" class="btn btn-md btn-outline-success"> <i class="fa-solid fa-plus fa-2xl"></i> Create</button></a>
 
       </div>
       <div class="row">
