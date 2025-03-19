@@ -4,7 +4,7 @@
       <div class="logo-header" data-background-color="dark">
         <a href="index.html" class="logo">
           <img
-            src="{{asset('finance/assets/img/kaiadmin/favicon.png')}}"
+            src="{{asset('assets/img/kaiadmin/favicon.png')}}"
             alt="navbar brand"
             class="navbar-brand"
             height="50"
@@ -30,13 +30,13 @@
       <div class="sidebar-content">
         <ul class="nav nav-secondary">
           <li class="nav-item @yield('dashboard-active')">
-            <a href="{{url('finance')}}">
+            <a href="{{url('/')}}">
                 <i class="fa-solid fa-house"></i>
                 <p>Dashboard</p>
             </a>
           </li>
           <li class="nav-item @yield('chart-account-active')">
-            <a href="{{url('finance/account-list')}}">
+            <a href="{{url('account-list')}}">
                 <i class="fa-solid fa-chart-column"></i>
                 <p>Chart Account</p>
             </a>
@@ -44,7 +44,7 @@
           </li>
 
           <li class="nav-item @yield('transaction-active')">
-            <a href="{{url('finance/transactions')}}">
+            <a href="{{url('transactions')}}">
                 <i class="fa-solid fa-right-left"></i>
                 <p>Transaction</p>
             </a>
@@ -52,7 +52,7 @@
           </li>
 
           <li class="nav-item @yield('journal-active')">
-            <a href="{{url('finance/journals')}}">
+            <a href="{{url('journals')}}">
                 <i class="fa-solid fa-shuffle"></i>
                 <p>Journal</p>
             </a>
@@ -60,7 +60,7 @@
           </li>
 
           <li class="nav-item @yield('ledger-active')">
-            <a href="{{url('finance/ledgers')}}">
+            <a href="{{url('ledgers')}}">
                 <i class="far fa-check-circle"></i>
                 <p>Ledger</p>
             </a>
@@ -68,7 +68,7 @@
           </li>
 
           <li class="nav-item @yield('trial-balance-active')">
-            <a href="{{url('finance/trial_balance_list')}}">
+            <a href="{{url('trial_balance_list')}}">
                 <i class="fa-solid fa-scale-balanced"></i>
                 <p>Trial Balance</p>
             </a>
@@ -76,7 +76,7 @@
           </li>
 
           <li class="nav-item @yield('balance-sheet-active')">
-            <a href="{{url('finance/balance_sheet_list')}}">
+            <a href="{{url('balance_sheet_list')}}">
                 <i class="fa-solid fa-sheet-plastic"></i>
                 <p>Balance Sheet</p>
             </a>

@@ -9,12 +9,12 @@
     />
     <link
       rel="icon"
-      href="{{asset('finance/assets/img/kaiadmin/favicon.ico')}}"
+      href="{{asset('assets/img/kaiadmin/favicon.ico')}}"
       type="image/x-icon"
     />
 
     <!-- Fonts and icons -->
-    <script src="{{asset('finance/assets/js/plugin/webfont/webfont.min.js')}}"></script>
+    <script src="{{asset('assets/js/plugin/webfont/webfont.min.js')}}"></script>
     <script>
       WebFont.load({
         google: { families: ["Public Sans:300,400,500,600,700"] },
@@ -34,12 +34,12 @@
     </script>
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="{{asset('finance/assets/css/bootstrap.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('finance/assets/css/plugins.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('finance/assets/css/kaiadmin.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/plugins.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/kaiadmin.min.css')}}" />
 
     <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link rel="stylesheet" href="{{asset('finance/assets/css/demo.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/demo.css')}}" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.min.css">
@@ -291,41 +291,41 @@
       <!-- End Custom template -->
     </div>
     <!--   Core JS Files   -->
-    <script src="{{asset('finance/assets/js/core/jquery-3.7.1.min.js')}}"></script>
-    <script src="{{asset('finance/assets/js/core/popper.min.js')}}"></script>
-    <script src="{{asset('finance/assets/js/core/bootstrap.min.js')}}"></script>
+    <script src="{{asset('assets/js/core/jquery-3.7.1.min.js')}}"></script>
+    <script src="{{asset('assets/js/core/popper.min.js')}}"></script>
+    <script src="{{asset('assets/js/core/bootstrap.min.js')}}"></script>
 
     <!-- jQuery Scrollbar -->
-    <script src="{{asset('finance/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js')}}"></script>
+    <script src="{{asset('assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js')}}"></script>
 
     <!-- Chart JS -->
-    <script src="{{asset('finance/assets/js/plugin/chart.js/chart.min.js')}}"></script>
+    <script src="{{asset('assets/js/plugin/chart.js/chart.min.js')}}"></script>
 
     <!-- jQuery Sparkline -->
-    <script src="{{asset('finance/assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js')}}"></script>
+    <script src="{{asset('assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js')}}"></script>
 
     <!-- Chart Circle -->
-    <script src="{{asset('finance/assets/js/plugin/chart-circle/circles.min.js')}}"></script>
+    <script src="{{asset('assets/js/plugin/chart-circle/circles.min.js')}}"></script>
 
     <!-- Datatables -->
-    <script src="{{asset('finance/assets/js/plugin/datatables/datatables.min.js')}}"></script>
+    <script src="{{asset('assets/js/plugin/datatables/datatables.min.js')}}"></script>
 
     <!-- Bootstrap Notify -->
-    {{-- <script src="{{asset('finance/assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js')}}"></script> --}}
+    {{-- <script src="{{asset('assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js')}}"></script> --}}
 
     <!-- jQuery Vector Maps -->
-    <script src="{{asset('finance/assets/js/plugin/jsvectormap/jsvectormap.min.js')}}"></script>
-    <script src="{{asset('finance/assets/js/plugin/jsvectormap/world.js')}}"></script>
+    <script src="{{asset('assets/js/plugin/jsvectormap/jsvectormap.min.js')}}"></script>
+    <script src="{{asset('assets/js/plugin/jsvectormap/world.js')}}"></script>
 
     <!-- Sweet Alert -->
-    <script src="{{asset('finance/assets/js/plugin/sweetalert/sweetalert.min.js')}}"></script>
+    <script src="{{asset('assets/js/plugin/sweetalert/sweetalert.min.js')}}"></script>
 
 
-    <script src="{{asset('finance/assets/js/kaiadmin.min.js')}}"></script>
+    <script src="{{asset('assets/js/kaiadmin.min.js')}}"></script>
 
 
-    <script src="{{asset('finance/assets/js/setting-demo.js')}}"></script>
-    <script src="{{asset('finance/assets/js/demo.js')}}"></script>
+    <script src="{{asset('assets/js/setting-demo.js')}}"></script>
+    <script src="{{asset('assets/js/demo.js')}}"></script>
 
     <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap5.min.js"></script>
